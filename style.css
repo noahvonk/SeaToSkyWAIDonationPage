@@ -32,3 +32,6 @@ div.bg-overlay{
   width:100vw;
   opacity: 0.3;
 }
+
+.svg-safari-fix{
+  display:none !important;
