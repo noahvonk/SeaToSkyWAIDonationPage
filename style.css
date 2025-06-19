@@ -22,4 +22,6 @@ div.donate-block{
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  min-height: 400px;
+  min-width: 600px;
 }
