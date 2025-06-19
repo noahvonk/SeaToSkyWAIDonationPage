@@ -5,10 +5,15 @@
   <script src="https://zeffy-scripts.s3.ca-central-1.amazonaws.com/embed-form-script.min.js"></script>
 </head>
 <body>
+  <script>
+    window.addEventListener("load", (event) => {
+  document.getElementById("donate-button").click();
+});
+  </script>
 <div class="main">
   <div class="donate-block">
         <h1>Women in Avation - Sea to Sky Chapter Donation Page</h1>
-  <button class="primary-button" zeffy-form-link="https://www.zeffy.com/embed/donation-form/support-the-bc-aviation-community?modal=true">Donate Now</button>
+  <button class="primary-button" id="donate-button" zeffy-form-link="https://www.zeffy.com/embed/donation-form/support-the-bc-aviation-community?modal=true">Donate Now</button>
   </div>
 
 </div>
