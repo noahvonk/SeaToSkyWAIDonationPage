@@ -10,10 +10,11 @@
       // if any more div tags are added, change
       document.getElementsByTagName("body")[0].getElementsByTagName("div")[3].remove();
   document.getElementById("donate-button").click();
-            if(document.getElementsByClassName("css-lgn281")[0] !== null){
-        document.getElementsByClassName("css-lgn281")[0].classList.add("hide");
-                document.getElementsByClassName("css-lgn281")[0].classList.remove("css-lgn281");
-      }
+const element = document.getElementsByClassName("css-lgn281")[0];
+if (element) {
+    element.classList.add("hide");
+    element.classList.remove("css-lgn281");
+}
       
 });
   </script>
