@@ -26,12 +26,12 @@ div.donate-block{
 .primary-button{
   position: static;
   transform: translate(-50%, -50%);
-padding: 25px;
+padding: 35px;
   background-color: #9FE3BD;
   color:black;
-  font-size: 24px;
+  font-size: 36px;
   outline: none;
-  border-radius: 1em;
+  border-radius: 2em;
   border-width: 0px;
   transform: scale(1);
   box-shadow: 2px 0px 3px 5px rgba(0,0,0,0.3);
