@@ -24,10 +24,21 @@ div.donate-block{
 }
 
 .primary-button{
-padding: 15px;
+padding: 25px;
   background-color: #9FE3BD;
   color:black;
-  font-size: 16px;
+  font-size: 24px;
+  outline: none;
+  border-radius: 1em;
+  border-width: 0px;
+  transform: scale(1);
+  box-shadow: 2px, 0px, 3px, 5px, rgba(0,0,0,0.3);
+  transition: transform .5s background-color .5s;
+}
+
+.primary-button:hover{
+  transform: scale(1.1);
+  background-color: #79ad90;
 }
 
 div.bg-overlay{
