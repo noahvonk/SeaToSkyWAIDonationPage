@@ -27,7 +27,8 @@ div.donate-block{
 }
 
 div.bg-overlay{
-  background-color: rgba(0,0,0,0.3);
+  background-color: black;
     height:100vh;
   width:100vw;
+  opacity: 0.3;
 }
