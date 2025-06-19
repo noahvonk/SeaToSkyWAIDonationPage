@@ -15,15 +15,19 @@ body{
 }
 
 div.donate-block{
-  display: none;
-  background-color: white;
-  border-radius: 3em;
-  box-shadow: 0px 5px 10px 6px rgba(0,0,0,0.5);
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   min-height: 400px;
   min-width: 600px;
+}
+
+.primary-button{
+padding: 15px;
+  background-color: #9FE3BD;
+  color:black;
+  font-size: 16px;
 }
 
 div.bg-overlay{
